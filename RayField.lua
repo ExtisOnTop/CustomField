@@ -1110,10 +1110,10 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.TextTransparency = 1
 	Main.Shadow.Image.ImageTransparency = 1
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Arrayfield Interface Suite"
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Trxsfield Interface Suite"
 	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius | Meta"
-	if Settings.LoadingTitle ~= "Arrayfield Interface Suite" then
-		LoadingFrame.Version.Text = "Arrayfield UI"
+	if Settings.LoadingTitle ~= "Trxsfield Interface Suite" then
+		LoadingFrame.Version.Text = "Trxsfield UI"
 	end
 	Topbar.Visible = false
 	Elements.Visible = false
